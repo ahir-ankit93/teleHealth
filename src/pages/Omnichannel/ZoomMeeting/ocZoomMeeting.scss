@@ -1,0 +1,19 @@
+.email-list {
+  list-style: none;
+  li {
+    background-color: lightgray;
+    margin-bottom: 5px;
+    padding: 5px;
+    border-radius: 5px;
+    display: inline-flex;
+    margin-right: 5px;
+    span {
+      margin-right: 5px;
+    }
+    button {
+      padding: 0 5px;
+      border-radius: 5px;
+      background-color: #000;
+    }
+  }
+}

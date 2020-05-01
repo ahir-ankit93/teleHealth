@@ -1,0 +1,65 @@
+@import "react-big-calendar/lib/sass/styles";
+.auth-page-wrapper {
+  padding: 50px;
+  max-width: 100%;
+}
+
+.rbc-toolbar {
+  span.rbc-btn-group:nth-child(1) > button:nth-child(2) {
+    display: none;
+  }
+}
+
+.rbc-toolbar {
+  span.rbc-btn-group:nth-child(1) > button:nth-child(1) {
+    background-color: dodgerblue;
+    color: white;
+  }
+}
+
+.rbc-toolbar {
+  span.rbc-btn-group:nth-child(1) > button:nth-child(3) {
+    background-color: dodgerblue;
+    color: white;
+  }
+}
+
+.rbc-toolbar {
+  span.rbc-btn-group:nth-child(1) > button.rbc-active {
+    background-color: rgb(8, 92, 248);
+    color: rgb(238, 225, 225);
+  }
+}
+
+.rbc-toolbar {
+  span.rbc-btn-group:nth-child(3) > button:nth-child(1) {
+    background-color: cornflowerblue;
+    color: white;
+  }
+}
+
+.rbc-toolbar {
+  span.rbc-btn-group:nth-child(3) > button:nth-child(2) {
+    color: white;
+    background-color: cornflowerblue;
+  }
+}
+
+.rbc-toolbar {
+  span.rbc-btn-group:nth-child(3) > button:nth-child(3) {
+    background-color: cornflowerblue;
+    color: white;
+  }
+}
+
+.rbc-toolbar {
+  span.rbc-btn-group:nth-child(3) > button.rbc-active {
+    background-color: rgb(8, 92, 248);
+    color: rgb(238, 225, 225);
+  }
+}
+
+.hadMng {
+  text-align: center;
+  align-items: center;
+}
